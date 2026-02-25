@@ -43,3 +43,13 @@ Set up a server in File > Settings > Languages & Frameworks > PHP > Servers with
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or find any issues, please open an issue or submit a pull request.
+
+## Adding Carriers
+In order to add new shipping carrier please do next steps:
+1. **Go to src/Carriers folder and add your carrier php file.**
+Carrier file name should follow format XxxxxCarrier.php.
+2. **Carrier should implement CarrierInterface and have constants Name and Code set.**
+Name could have any value, for Code lowercase is allowed only. 
+3. **If something doesn't work just check existing carriers format.**
+Pay attention to calculate() method output.
+4. **Enjoy new carrier on both API and Front-end endpoints**

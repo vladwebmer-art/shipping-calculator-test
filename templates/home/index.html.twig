@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Shipping Rate Calculator</h1>
+    {{ form_start(form, {'action': path('calculate')}) }}
+        {{ form_row(form.carrier) }}
+        {{ form_row(form.weightKg) }}
+        {{ form_row(form.calculate) }}
+    {{ form_end(form) }}
+{% endblock %}
