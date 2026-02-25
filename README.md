@@ -23,7 +23,7 @@ This repository provides a starter kit for setting up a development environment 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/carferdas/symfony-docker.git
+   git clone https://github.com/vladwebmer-art/shipping-calculator-test.git
    cd symfony-docker
 2. **Build and start the containers:**
   ```bash
